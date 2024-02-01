@@ -96,8 +96,8 @@ Collection trong java là một root interface trong hệ thống cấp bậc Co
 
 #### Hệ thống cấp bậc Collection trong java
 
-![](Photos\img_10.png)
-![](Photos\img_11.png)
+![](img_10.png)
+![](img_11.png)
 
 ### 2.4 List
 List là một interface trong java. Nó chứa các phương thức để chèn và xóa các phần tử dựa trên chỉ số index.
@@ -165,7 +165,7 @@ PHP
 #### List Iterator trong java
 ListIterator là một interface được sử dụng để duyệt các phần tử của List trong java. Các phương thức của interface ListIterator trong java:
 
-![](Photos\img_12.png)
+![](img_12.png)
 
 Ví dụ:
 ```java
@@ -237,8 +237,8 @@ Vì Set là một (giao diện) interface, bạn cần khởi tạo một triể
 + EnumSet
 
 #### Các phương thức của interface Set trong java
-![](Photos\img_13.png)
-![](Photos\img_14.png)
+![](img_13.png)
+![](img_14.png)
 
 Ví dụ:
 ```java
@@ -291,11 +291,11 @@ Các phương thức trong Queue interface
 ### 3.1 Map
 Trong java, map được sử dụng để lưu trữ và truy xuất dữ liệu theo cặp key và value. Mỗi cặp key và value được gọi là mục nhập (entry). Map trong java chỉ chứa các giá trị key duy nhất. Map rất hữu ích nếu bạn phải tìm kiếm, cập nhật hoặc xóa các phần tử trên dựa vào các key.
 #### Các phương thức hữu ích của Map interface
-![](Photos\img_15.png)
+![](img_15.png)
 
 #### _Map.Entry Interface_
 Entry là một interface con của Map. Vì vậy, chúng ta được truy cập nó bằng tên Map.Entry. Nó cung cấp các phương pháp để truy xuất các key và value.
-![](Photos\img_16.png)
+![](img_16.png)
 
 ### HashMap
 Hashmap là một lớp nằm trong package java.util và implement interface Map. Nó là một cấu trúc dữ liệu lưu dữ liệu dưới dạng key-value, trong đó mỗi khóa là duy nhất và không thể trùng lặp. Hashmap cho phép lưu giá trị khóa là null và chỉ có duy nhất một khóa là null, trong khi đó bất kỳ giá trị nào trong value set có thể là null. Lớp này không đảm bảo thứ tự lưu trữ và có thể thay đổi kích thước động khi số lượng các cặp key-value thay đổi.
@@ -369,7 +369,7 @@ Các điểm quan trọng về lớp TreeMap trong java là:
 - Nó duy trì các phần tử được thêm vào theo thứ tự key tăng dần.
 
 #### Constructor của lớp TreeMap trong Java
-![](Photos\img_17.png)
+![](img_17.png)
 
 #### Ví dụ 1:
 ```java
