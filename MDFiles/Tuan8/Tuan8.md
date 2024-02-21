@@ -1,5 +1,41 @@
 # [BUỔI 8] MỘT SỐ CẤU TRÚC DỮ LIỆU THƯỜNG THẤY TRONG JAVA
 
+<!-- TOC -->
+* [[BUỔI 8] MỘT SỐ CẤU TRÚC DỮ LIỆU THƯỜNG THẤY TRONG JAVA](#bui-8-mt-s-cu-trc-d-liu-thng-thy-trong-java)
+  * [1. Cấu trúc dữ liệu là gì? Sử dụng khi nào?](#1-cu-trc-d-liu-l-g-s-dng-khi-no)
+  * [2. Iterable Interface, Collection -> List, Set, Queue](#2-iterable-interface-collection----list-set-queue)
+    * [2.1 Khái niệm cơ bản về Iterable](#21-khi-nim-c-bn-v-iterable)
+    * [2.2 Iterator](#22-iterator)
+    * [2.3 Collection](#23-collection)
+      * [Hệ thống cấp bậc Collection trong java](#h-thng-cp-bc-collection-trong-java)
+    * [2.4 List](#24-list)
+      * [Các phương thức của interface List trong java](#cc-phng-thc-ca-interface-list-trong-java)
+      * [List Iterator trong java](#list-iterator-trong-java)
+    * [2.5 Set](#25-set)
+      * [Khai báo Set trong Java](#khai-bo-set-trong-java)
+      * [Các phương thức của interface Set trong java](#cc-phng-thc-ca-interface-set-trong-java)
+    * [2.6 Queue](#26-queue)
+      * [Đặc điểm của queue](#c-im-ca-queue)
+  * [3. Interface Map, SortedMap -> HashMap, TreeMap](#3-interface-map-sortedmap----hashmap-treemap)
+    * [3.1 Map](#31-map)
+      * [Các phương thức hữu ích của Map interface](#cc-phng-thc-hu-ch-ca-map-interface)
+      * [_Map.Entry Interface_](#_mapentry-interface_)
+    * [HashMap](#hashmap)
+      * [Sau đây là các phương thức của lớp HashMap hay được sử dụng trong Java:](#sau-y-l-cc-phng-thc-ca-lp-hashmap-hay-c-s-dng-trong-java-)
+    * [3.2 SortedMap](#32-sortedmap)
+      * [Các phương thức của SortedMap](#cc-phng-thc-ca-sortedmap)
+    * [3.3 TreeMap](#33-treemap)
+      * [Constructor của lớp TreeMap trong Java](#constructor-ca-lp-treemap-trong-java)
+      * [Ví dụ 1:](#v-d-1-)
+      * [Ví dụ 2:](#v-d-2-)
+  * [4. Hàm Sort](#4-hm-sort)
+    * [4.1 Đối với Array:](#41-i-vi-array-)
+    * [4.2 Sắp xếp List](#42-sp-xp-list)
+    * [4.3 Sắp xếp các đối tượng bất kì](#43-sp-xp-cc-i-tng-bt-k)
+      * [4.3.1 Implement Comparable và override phương thức compareTo(T obj)](#431-implement-comparable-v-override-phng-thc-compareto--t-obj-)
+      * [4.3.2 Implement Comparator và override phương thức compare(T obj1, T obj2)](#432-implement-comparator-v-override-phng-thc-compare--t-obj1-t-obj2-)
+<!-- TOC -->
+
 ## 1. Cấu trúc dữ liệu là gì? Sử dụng khi nào?
 Cấu trúc dữ liệu là một hình thức tổ chức, lưu trữ dữ liệu theo hệ thống và thứ tự để có thể sử dụng tài liệu một cách tối ưu.
 
